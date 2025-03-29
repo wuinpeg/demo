@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Database</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Pokémon Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Generation Selection -->
+    <div class="generation-selection">
+        <label for="generation">Select Generation:</label>
+        <select id="generation">
+            <option value="1">Generation 1 (Kanto)</option>
+            <option value="2">Generation 2 (Johto)</option>
+            <option value="3">Generation 3 (Hoenn)</option>
+            <option value="4">Generation 4 (Sinnoh)</option>
+            <option value="5">Generation 5 (Unova)</option>
+            <option value="6">Generation 6 (Kalos)</option>
+            <option value="7">Generation 7 (Alola)</option>
+            <option value="8">Generation 8 (Galar)</option>
+            <option value="9">Generation 9 (Paldea)</option> <!-- Added Paldea -->
+        </select>
+    </div>
+
+    <!-- Pokémon List -->
+    <div id="pokemon-container">
+        <h2>Pokémon from Generation 1</h2>
+        <ul id="pokemon-list">
+            <!-- Pokémon list will be populated here -->
+        </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Pokémon Database. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

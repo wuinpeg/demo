@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Generation Selection Styles */
+.generation-selection {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.generation-selection label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.generation-selection select {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+/* Pokémon List Styles */
+#pokemon-container {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#pokemon-list {
+    list-style: none;
+    padding: 0;
+}
+
+#pokemon-list li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#pokemon-list li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
